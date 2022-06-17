@@ -1,6 +1,6 @@
 {
     "name": "burovoordeboeg/acf-focus-point",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "type": "library",
     "description": "This is a fork from the original ACF Focus Point library",
     "keywords": ["wordpress", "theme class"],
