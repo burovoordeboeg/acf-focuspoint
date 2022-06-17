@@ -1,0 +1,16 @@
+{
+    "name": "burovoordeboeg/acf-focus-point",
+    "version": "0.1.0",
+    "type": "library",
+    "description": "This is a fork from the original ACF Focus Point library",
+    "keywords": ["wordpress", "theme class"],
+    "homepage": "https://github.com/ooksanen/acf-focuspoint",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "files": [ "acf-focuspoint.php" ]
+    }
+}
