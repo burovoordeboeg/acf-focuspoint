@@ -1,6 +1,6 @@
 {
     "name": "burovoordeboeg/acf-focus-point",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "type": "library",
     "description": "This is a fork from the original ACF Focus Point library",
     "keywords": ["wordpress", "theme class"],
@@ -11,6 +11,6 @@
         "php": ">=7.1.0"
     },
     "autoload": {
-        "files": [ "acf-focuspoint.php" ]
+        "files": [ "FocusPoint.php" ]
     }
 }
