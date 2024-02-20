@@ -10,7 +10,7 @@ if( !class_exists('acffp_acf_plugin_focuspoint') ) :
 class acffp_acf_plugin_focuspoint {
 	
 	// vars
-	var $settings;
+	public static array $settings;
 	
 	
 	/*
@@ -31,7 +31,7 @@ class acffp_acf_plugin_focuspoint {
 		// settings
 		// - these will be passed into the field class.
 		$this->settings = array(
-			'version'	=> '1.2.0',
+			'version'	=> '1.2.1',
 			'url'		=> \get_template_directory_uri() . '/vendor/burovoordeboeg/acf-focus-point/',
 			'path'		=> \get_template_directory() . '/vendor/burovoordeboeg/acf-focus-point/'
 		);
